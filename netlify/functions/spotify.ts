@@ -1,4 +1,4 @@
-/// <reference types="./types" />
+/// <reference types="../types" />
 
 import { Handler } from "@netlify/functions";
 
