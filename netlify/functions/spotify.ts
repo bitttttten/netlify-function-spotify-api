@@ -9,7 +9,7 @@ export const handler: Handler = async () => {
 
     return {
       statusCode: 200,
-      body: JSON.stringify(recentlyPlayedContent?.items ?? {}),
+      body: JSON.stringify(recentlyPlayedContent?.items ?? []),
     };
   } catch (err) {
     console.error(err);
